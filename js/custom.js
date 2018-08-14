@@ -81,7 +81,7 @@ function loadCategories() {
             '      <td>',
             '      <a href="#" class="btn btn-outline-success" role="button" data-toggle="modal"',
             '  data-target="#modalCreateCategory"',
-            '  onclick="return onClickNewCategory(event, {% parent_id %});">Add Children</a>',
+            '  onclick="return onClickNewCategory(event, {% id %});">Add Children</a>',
             '  <a href="#" class="btn btn-outline-info" role="button"' +
             '  onclick="return onClickCategory(event, {% id %});">Edit</a>',
             '      <a href="#" class="btn btn-outline-danger" role="button"',
